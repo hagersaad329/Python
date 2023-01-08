@@ -1,0 +1,11 @@
+#to convert string to list
+s = 'Welcome To python'
+    print(f'List of Words ={s.split()}')
+
+#assige a value to list
+
+list = ['larry', 'curly', 'moe']
+list.append ( 'shemp' )
+list.insert ( 0, 'xxx' )
+list.extend ( ['yyy', 'zzz'] )
+    print(list)
