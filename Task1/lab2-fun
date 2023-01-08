@@ -1,0 +1,6 @@
+#Read a given string, change the character at a given index and then print the modified string.
+def mutate_string(string, index, character):
+    string = string[:index] + character + string[index + 1:]
+    return string
+
+print(mutate_string("hader saad", 2, "g"))
